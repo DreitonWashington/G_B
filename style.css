@@ -1,0 +1,183 @@
+@font-face{
+	font-family: aguafina;
+	src: url("font/AguafinaScript-Regular.ttf");
+}
+@font-face{
+	font-family: zenk;
+	src: url("font/ZenKurenaido-Regular.ttf");
+}
+html{
+	scroll-behavior: smooth; /* efeito mais suave para voltar ao topo*/
+}
+.bt1{
+	width: 120px;
+	height: 28px;
+	background-color:rgba(255, 153, 0, 0.6);
+	position: absolute;
+	border-radius: 24px;
+	border: rgba(255, 153, 0, 0);
+	margin-top: 25px;
+	margin-left: 200px;
+	color: white;
+}
+.bt2{
+	width: 120px;
+	height: 28px;
+	background-color:rgba(255, 153, 0, 0.6);
+	position: absolute;
+	border-radius: 24px;
+	border-color: rgba(255, 153, 0, 0);
+	margin-top: 25px;
+	margin-left: 350px;
+	color: white;
+	cursor: pointer
+}
+.bt3{			
+	width: 120px;
+	height: 28px;
+	background-color:rgba(255, 153, 0, 0.6);
+	position: absolute;
+	border-radius: 24px;
+	border-color: rgba(255, 153, 0, 0);
+	margin-top: 25px;
+	margin-left: 500px;
+	color: white;
+	cursor: pointer
+}
+.menu{
+	margin-left: 870px;
+	padding-left: 12px;
+	height: 69px;
+	background-color: rgba(255, 255, 255, 0);
+	position: absolute;
+}
+.title{
+	padding: 0;
+	width: 1519px;
+	height: 200px;
+	margin-top: 250px;
+	padding-bottom: 100px;
+	font-family: aguafina;
+	font-size: 102px;
+	color: #FF9900;
+	position: absolute;
+	-webkit-text-stroke: 0.9px #000000;
+	font-weight: lighter;
+}
+.sub-title{
+	padding: 0;
+	width: 1519px;
+	height: 200px;
+	margin-top: 352px;
+	padding-bottom: 100px;
+	font-family: zenk;
+	font-size: 32px;
+	color: #FFF;
+	position: absolute;
+}
+.espuma{
+	margin-top: -4px;	
+	position: absolute;
+}
+.espuma-bg{
+	margin-top: px;	
+	height: 1902px;	
+}
+.bloco-1-sobre{
+	width: 850px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	margin-top: -1700px;
+	margin-left: 30px;
+	border-radius: 24px;
+}
+.text-descr{
+	font-size: 22px;
+	margin-top:-150px ;
+	margin-left: 160px;
+} 	
+.bloco-2-sobre{
+	width: 850px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	margin-top: -1450px;
+	margin-left: 635px;
+	border-radius: 24px;
+}
+.text-descr2{
+	font-size: 22px;
+	margin-top:-130px ;
+	margin-left: 190px;
+}
+.bloco-3-sobre{
+	width: 850px;
+	height: 200px;
+	background-color: rgba(0, 0, 0, 0.1);
+	position: absolute;
+	margin-top: -1200px;
+	margin-left: 30px;
+	border-radius: 24px;
+}
+.text-descr3{
+	font-size: 22px;
+	margin-top:-140px ;
+	margin-left: 190px;
+}
+.bloco-contato{
+	width: 1519px;
+	height: 900px;
+	background-color:rgba(0, 0, 0, 0.25) ;
+	position: absolute;
+	margin-top: -950px;
+}
+.contact{
+	font-family: zenk;
+	font-size: 52px;
+	height: 50px;
+	color: white;
+}
+label{
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+input{
+	margin-left: 20px;
+	margin-top: 35px;
+	width: 500px;
+	height: 35px;
+	border-bottom: 2px solid black ;
+}	
+.bloco-d-contato{
+	background-color: #eee;
+	width: 550px;
+	height: 150px;
+	margin-left: 485px;
+	border-bottom: 4px solid black;
+	margin-bottom: 25px;
+	border-radius: 10px;
+}
+
+textarea{
+	margin-top: 40px;
+	margin-left: 20px;
+	border: 2px solid black;
+}
+button{
+	margin-left: 250px;
+	margin-top: 15px;
+}	
+.foot{
+	background-color:black;
+	width:1519px;
+	height:100px;
+	margin-top:-50px;
+	position: relative;
+}
+.media{
+	width: 100px;
+	height: 100px;
+	margin-top: -4px;
+}

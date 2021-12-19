@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>GOOD BEER</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="shortcut icon" href="imagens/fav-icon.ico" type="image/x-icon">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+		<link rel="stylesheet" type="text/css" href="./style.css">
+	</head>
+	
+	<body style="margin: 0;">
+					
+		<header>
+			<nav class="menu" align="left">
+				<!--<div class="menu" align="right">-->
+					<a href="#sobre"><button class="bt2">Sobre</button></a>
+					<a href="#contato"><button class="bt3">Contato</button></a>
+				<!--</div>-->
+			</nav>
+			<span>
+				<h1 class="title" align="center">GOOD BEER</h1>
+				<h3 class="sub-title" align="center">A Cerveja feita com a melhor cevada do Brasil</h3>
+				<img width="1519" height="745" src="imagens/barley-field-3.jpg">
+			</span>	
+		</header>
+
+		<main>
+			<div class="bg2">
+
+				<div style="margin: 0;" width="1520" height="100">
+					<img class="espuma" width="1519" height="200" src="imagens/espuma2.png">
+					<img class="espuma-bg" width="1519" src="imagens/bgk2.png">
+				</div>
+			
+				<div class="bloco-1-sobre" width="300" height="300" data-aos="fade-right">
+					<img id="sobre" src="imagens/descr.png" width="200" height="200" >
+					<p class="text-descr" align="left"> A GOOD BEER foi fundada por dois amigos amantes de cervejas artesanais em 2005, eles gostavam de uma boa cerveja artesanal porém não conseguiam achar nenhuma com qualidade, foi aí que decidiram fundar a empresa.</p>
+				</div>
+
+				<div class="bloco-2-sobre" width="300" height="200" data-aos="fade-right">
+					<img src="imagens/descr2.png" width="200" height="200">
+					<p class="text-descr2" align="left">Assine já o BEER CLUB e receba em sua loja/comercio os produtos da GOOD BEER com até 20% de desconto
+					</p>
+				</div>
+
+				<div class="bloco-3-sobre" width="300" height="200" data-aos="fade-right">
+					<img src="imagens/descr3.png" width="200" height="200">
+					<p class="text-descr3" align="left"> A GOOD BEER está localizada em Jundiaí-SP na Avênida Rosicler Torres Batista nº 198, venha conhecer nossos produtos pessoalmente e experimente gratis algumas amostra e ganhe um desconto bem gelado.</p>
+				</div>
+
+			</div>
+
+			<div class="bloco-contato" width="1519" height="500">
+				<h2 id="contato" class="contact" align="center" >Entre em contato via Email</h2>
+				<form method="post">
+					<div class="bloco-d-contato" data-aos="fade-down">
+						<label for="nome">Nome</label><br>
+						<input type="text" name="nome" id="nome" placeholder="Digite seu Nome">
+					</div>
+
+					<div class="bloco-d-contato" data-aos="fade-down">
+						<label for="sobrenome">Sobrenome</label><br>
+						<input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu Sobrenome">
+					</div>
+
+					<div class="bloco-d-contato" data-aos="fade-down">
+						<label for="email">E-mail</label><br>
+						<input type="email" name="email" id="email" placeholder="Digite seu email">
+					</div>
+
+					<div class="bloco-d-contato" data-aos="fade-down">
+						<label for="mensagem">Mensagem</label><br>
+						<textarea rows="5" cols="50" placeholder="Digite sua mensagem"></textarea>
+						<br><button>Enviar</button>
+					</div>
+				</form>
+			</div>
+		
+		</main>
+
+		<footer >
+			<div class="foot">
+				<a href="https://www.facebook.com" target="blank"><img class="media" src="./imagens/logo-facebook.png" alt="Logo do Facebook"></a>
+				<a href="https://www.instagram.com" target="blank"><img class="media" src="./imagens/logo-instagram.png" alt="Logo do Instagram"></a>
+				<a href="https://www.web.whatsapp.com" target="blank"><img class="media" src="./imagens/logo-whats.png" alt="Logo do Whatsapp"></a>
+			</div>
+		</footer>
+	
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  	<script>
+    AOS.init({
+    	duration:1000,
+    });
+  	</script>
+	
+	</body>
+</html>
